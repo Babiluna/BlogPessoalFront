@@ -6,11 +6,11 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://static1.purebreak.com.br/articles/8/84/71/8/@/315616-iza-chorou-ao-falar-da-influencia-que-te-amp_article_image-1.jpg" alt="Imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
+          <img src="{{foto}}" alt="Imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
         </li>
         <li class="nav-item pl-3">
             <p class="m-0 font-weight-bold text-light fs-16">
-                Nome do usuário
+                {{nome}}
             </p>
         </li>
 
@@ -24,7 +24,7 @@
 <ul>
   <ul class="navbar-nav ml-auto d-flex align-items-center"></ul>
   <li class="nav-item pl-3">
-    <a class="m-0 font-weight-bold text-light fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i>
+    <a (click)='sair' class="m-0 font-weight-bold text-light fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i>
     </a>
 </li>
 
